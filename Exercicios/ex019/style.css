@@ -1,0 +1,28 @@
+@charset "UTF-8";
+/*
+htmal é id = em CSS#
+HTML é class em CSS .
+*/
+body{
+    background-color: rgba(128, 255, 0, 0.445);
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    color: rgba(15, 240, 8, 0.863);
+}
+h1#principal {
+    text-align: center;
+    background-color: #17E841;
+    color: white;
+
+}
+h2{
+    color: rgba(170, 250, 51, 0.829);
+}
+.basico{
+    color: rgba(202, 202, 5, 0.685);
+    font-weight: bold;
+}
+.destaque{
+    background-color: yellow;
+}
