@@ -1,0 +1,11 @@
+@charset "UTF-8";
+body{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: blue;
+}
+p{
+    font-style: normal;
+    
+}
+p i {font-style: italic; font-size: larger; 
+}
