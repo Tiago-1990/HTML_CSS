@@ -32,7 +32,7 @@ header > h1 {
     font-family: var(--font2);
     font-size: 10vw;
 }
-header >p{
+header > p{
     padding-bottom: 50px;
     text-align: center;
 }
@@ -51,7 +51,7 @@ section{
     line-height: 2em;
     padding-left: 30px;
     font-family: var(--font3);
-    font-size: 4.5vw;
+    font-size: 4.5vh;
 
 }
 section.normal{
@@ -68,8 +68,15 @@ section.imagem {
 section.imagem> p {
     display: inline-block;
     padding: 5px;
-    background-color: rgba(0, 0, 0, 0.205);
+    background-color: rgba(0, 0, 0, 0.541);
 }
+ section#img01 {
+    background-image: url("../desafio12\ cordel/background001.jpg");
+ }
+ section#img02 {
+    background-image: url("../desafio12\ cordel/background002.jpg");
+ }
+
 footer{
     background-color: black;
     color: white;
