@@ -64,17 +64,24 @@ section.imagem {
     
     background-color: rgba(51, 51, 51);
     color:white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.445);
+    background-size: cover;
+    background-attachment: fixed;
 }
 section.imagem> p {
     display: inline-block;
     padding: 5px;
-    background-color: rgba(0, 0, 0, 0.541);
+    background-color: rgba(0, 0, 0, 0.376);
+    text-shadow: 2px 2px 0px black;
 }
- section#img01 {
+ section#img001 {
     background-image: url("../desafio12\ cordel/background001.jpg");
+    background-size: cover;
+    
  }
- section#img02 {
+ section#img002 {
     background-image: url("../desafio12\ cordel/background002.jpg");
+    background-size: cover;
  }
 
 footer{
